@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"imageURL": {
+			"name": "imageURL",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "imageURL",
+			"order": 1
+		},
+		"job": {
+			"name": "job",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "job",
+			"order": 2
+		},
+		"bio": {
+			"name": "bio",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "bio",
+			"order": 3
+		},
+		"sex": {
+			"name": "sex",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "sex",
+			"order": 4
+		},
+		"hair": {
+			"name": "hair",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "hair",
+			"order": 5
+		}
+	}
+}
